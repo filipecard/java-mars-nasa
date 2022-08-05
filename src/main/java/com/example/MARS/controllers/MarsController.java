@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestControllercurl -s --request POST http://localhost:8080/rest/mars/MML
+@RestController
 @RequestMapping("/rest")
 public class MarsController {
     @Autowired
