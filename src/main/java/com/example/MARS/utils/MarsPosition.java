@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class MarsPosition {
     private final int maxPosition = 5;
-
     private Integer currentPositionX = 0;
     private Integer currentPositionY = 0;
     private MarsDirection currentDirection = MarsDirection.NORTH;
@@ -16,7 +15,6 @@ public class MarsPosition {
     public Integer getPositionX() { return currentPositionX; }
 
     public Integer getPositionY() { return currentPositionY; }
-
 
     public void setPositionX(Integer positionX) {
         if (positionX >= maxPosition || positionX < 0 ) {

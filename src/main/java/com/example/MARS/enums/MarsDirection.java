@@ -37,9 +37,6 @@ public enum MarsDirection {
         public MarsDirection toLeft(){ return SOUTH; }
 
         public MarsDirection toRight(){ return NORTH; }
-
-
-
     };
 
     public abstract MarsDirection toLeft();

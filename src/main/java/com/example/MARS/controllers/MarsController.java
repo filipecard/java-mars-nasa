@@ -19,7 +19,6 @@ public class MarsController {
     public ResponseEntity<?> executeCommands (
             @PathVariable("commands")
             String commands) {
-
         return ResponseEntity.status(HttpStatus.OK).body(marsService.executeCommands(commands));
 
     }
